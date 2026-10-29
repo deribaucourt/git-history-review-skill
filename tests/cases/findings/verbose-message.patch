@@ -1,0 +1,31 @@
+From 8888888888888888888888888888888888888888 Mon Sep 17 00:00:00 2001
+From: Example Author <author@example.invalid>
+Date: Thu, 29 Oct 2026 12:00:00 +0000
+Subject: [PATCH] feat: add bounded request parser
+
+This commit contains a number of changes related to the parser, and this
+message explains the changes that were made during the work. First, I
+created the parser file, and then I added the parser function to that
+file. After that, I updated the function to check the maximum request
+size, and later I returned to the same function to adjust the
+maximum-size check. I then changed the same function again so it could
+return the parsed value, which is the value returned by the parser after
+parsing the request. Next, I reviewed the function and made another
+small adjustment to the same request parsing logic. Finally, I updated
+the example file so it shows the parser function that was added earlier
+in this change. These steps summarize the work and the changes made to
+add and update the parser. The parser is now present and its behavior
+has been changed as described above.
+---
+ src/bounded_request_parser.txt | 2 ++
+ 1 file changed, 2 insertions(+)
+ create mode 100644 src/bounded_request_parser.txt
+
+diff --git a/src/bounded_request_parser.txt b/src/bounded_request_parser.txt
+new file mode 100644
+index 0000000..8888888
+--- /dev/null
++++ b/src/bounded_request_parser.txt
+@@ -0,0 +1,2 @@
++parse-request-with-limit:
++reject requests exceeding the configured limit

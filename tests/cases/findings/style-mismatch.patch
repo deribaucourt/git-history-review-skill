@@ -1,0 +1,18 @@
+From 7777777777777777777777777777777777777777 Mon Sep 17 00:00:00 2001
+From: Example Author <author@example.invalid>
+Date: Thu, 29 Oct 2026 11:00:00 +0000
+Subject: [PATCH] Update response mapping for adapters with older payload formats
+
+---
+ docs/adapter.txt | 2 ++
+ 1 file changed, 2 insertions(+)
+ create mode 100644 docs/adapter.txt
+
+diff --git a/docs/adapter.txt b/docs/adapter.txt
+new file mode 100644
+index 0000000..7777777
+--- /dev/null
++++ b/docs/adapter.txt
+@@ -0,0 +1,2 @@
++Adapter behavior
++Updated response mapping
